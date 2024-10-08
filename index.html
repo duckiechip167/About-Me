@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Index </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -15,19 +16,53 @@
     </nav>
 
     <header>
+        <h1>Welcome to My Portfolio</h1>
     </header>
 
     <main>
         <div class="wrapper">
             <div class="one"> 
-                <h1> About Me</h1>
-                <a href="contact.html">Contact</a>
+                <h2>About Me</h2>
+                <p>Click below for contact information.</p>
+                <a class="contact-btn" href="contact.html">Contact Me</a>
             </div>
-            <div class="two">Two</div>
-            <div class="three">Three</div>
-            <div class="four">Four</div>
-            <div class="five">Five</div>
-            <div class="six">Six</div>
+            <div class="projects">
+                <h2>Projects</h2>
+                <div class="cards">
+                    <article class="card">
+                        <header>
+                            <h3>Tic Tac Toe</h3>
+                        </header>
+                        <img src="images/tictactoe.png" alt="Tic Tac Toe Game" width="400" height="600">
+                        <div class="content">
+                            <li>Coded in Java.</li>
+                            <li>Developed a real-time, multiplayer Tic Tac Toe game and server using Android Studios.</li>
+                            <li>Implemented game logic, user interface, and error handling to create a seamless user experience.</li>
+                        </div>
+                        <footer>Images reserved to Whiteface</footer>
+                    </article>
+                    <article class="card">
+                        <header>
+                            <h3>Soccer League Registration</h3>
+                        </header>
+                        <div class="content">
+                            <li>Coded in C++.</li>
+                            <li>Notable achievements include efficient data manipulation and error-checking mechanisms.</li>
+                            <li>Showcased proficient file handling and user-friendly interface design.</li>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <header>
+                            <h3>Key Value Store</h3>
+                        </header>
+                        <div class="content">
+                            <li>Coded in C.</li>
+                            <li>Learned how to "persist" keys and values for later retrieval.</li>
+                            <li>Implemented functionalities for adding, retrieving, deleting, and clearing data entries.</li>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </div>
     </main>
 
