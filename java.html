@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Examples</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/java.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hello JavaScript</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dolore adipisci ipsa earum voluptas magni? Ipsa, doloribus illo autem maiores quisquam ullam reiciendis. Inventore suscipit error laborum ipsam sit saepe.</p>
+
+        <button id="alertButton" class="btn btn-custom mt-3 animate__animated">Click Me!</button>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#alertButton').on('click', function () {
+                $(this).addClass('animate__bounce');
+                alert('Button clicked!');
+                setTimeout(() => {
+                    $(this).removeClass('animate__bounce');
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+
+</html>
+

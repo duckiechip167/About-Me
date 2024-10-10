@@ -40,5 +40,84 @@
     text-align: center;
 }
 
+.card2 {
+    background-color: #eac5d8;
+    border: 1px solid #380036;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.card2 header {
+    background-color: #81ADC8;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.card2 .content {
+    padding: 10px;
+}
+
+.card2 ul {
+    padding-left: 20px;
+}
+
+.card3 {
+    background-color: #eac5d8;
+    border: 1px solid #380036;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.card3 header {
+    background-color: #81ADC8;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.card3 .content {
+    padding: 10px;
+}
+
+.card3 ul {
+    padding-left: 20px;
+}
+
+
+/************************************
+**                                 **
+**   Nav Bar                       **
+**                                 **
+*************************************/
+.navbar {
+    background-color: #000000;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #eac5d8;
+    font-size: 1.2em;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+/* End of Nav Bar*/
 
 

@@ -234,6 +234,12 @@ footer {
     margin: 10px;
 }
 
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /* End of images */
 
 /************************************
