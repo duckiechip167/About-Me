@@ -94,8 +94,14 @@ section {
 }
 
 /* Projects Section */
+.wrapper h2 {
+    text-align: center;
+}
+
 .projects {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .cards {
@@ -103,6 +109,7 @@ section {
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     gap: 20px;
     margin-top: 20px;
+    justify-items: center;
 }
 
 /* Card Styles */
@@ -118,6 +125,10 @@ section {
     color: #ffffff;
     padding: 5%;
     text-align: center;
+}
+
+.card li {
+    text-align: left;
 }
 
 .card img {
@@ -240,6 +251,17 @@ footer {
     justify-content: center;
 }
 
+.container img {
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.container img:hover {
+    transform: scale(1.05); /* Scale image to 105% */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+}
+
+
 /* End of images */
 
 /************************************
@@ -252,8 +274,9 @@ footer {
     background-color: #eac5d8;
     border: 1px solid #380036;
     border-radius: 8px;
-    padding: 10px;
-    margin: 0% 0;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

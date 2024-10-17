@@ -2,7 +2,7 @@ body {
     margin: 2em;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #81ADC8;
+    background-color: #eac5d8;
     color: #26081C; 
     display: flex;
     flex-direction: column;
@@ -31,9 +31,42 @@ p {
     font-size: 1em; 
     border-radius: 5px; 
     transition: background-color 0.3s, color 0.3s; 
+    margin: 0 auto; /* Center the button */
+    display: block; /* Make the button block level */
 }
 
 .btn-custom:hover {
     background-color: #26081C; 
     color: #81ADC8; 
 }
+
+/************************************
+**                                 **
+**   Images                        **
+**                                 **
+*************************************/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container img {
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.container img:hover {
+    transform: scale(1.05); /* Scale image to 105% */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+}
+
+/* Additional styling for images */
+img {
+    border-radius: 8px; /* Add rounded corners to images */
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* End of images */
