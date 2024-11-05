@@ -19,16 +19,24 @@
     <div class="container">
         <h1>Images</h1>
         <div class="container">
-            <img src="images/emma (1).JPG" alt="Emma" width="378" height="504">
-            <img src="images/emma (2).JPG" alt="Emma" width="378" height="504">
-            <img src="images/emma (3).JPG" alt="Emma" width="378" height="504">
-            <img src="images/emma (4).JPG" alt="Emma" width="552" height="414">
-            <img src="images/emma (5).JPG" alt="Emma" width="552" height="414">
+            <img src="images/emma (1).JPG" alt="Emma" width="378" height="504" class="thumbnail">
+            <img src="images/emma (2).JPG" alt="Emma" width="378" height="504" class="thumbnail">
+            <img src="images/emma (3).JPG" alt="Emma" width="378" height="504" class="thumbnail">
+            <img src="images/emma (4).JPG" alt="Emma" width="552" height="414" class="thumbnail">
+            <img src="images/emma (5).JPG" alt="Emma" width="552" height="414" class="thumbnail">
         </div>
         <button id="alertButton" class="btn btn-custom mt-3">Return Home!</button>
     </div>
 
-    <script>
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+    </div>
+    <script src="java/lightbox.js"></script>
+
+    <!-- <script>
         $(document).ready(function () {
             $('#alertButton').on('click', function () {
                 alert('Returning home...');
@@ -44,7 +52,8 @@
                 }, 2000);
             });
         });
-    </script>
+    </script> -->
+
 </body>
 
 </html>
