@@ -13,7 +13,7 @@ window.addEventListener('scroll', () => {
 
     let maxScroll = window.innerHeight;
 
-    text.style.marginTop = Math.min(value * 2.5, maxScroll) + 'px';
+    text.style.marginTop = Math.min(value * 1.5) + 'px';
     hill5.style.left = Math.min(value * 1.5, maxScroll) + 'px';
     hill4.style.left = Math.min(value * -1.5, maxScroll) + 'px';
     hill1.style.top = Math.min(value * 1, maxScroll) + 'px';
